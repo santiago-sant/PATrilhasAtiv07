@@ -10,21 +10,21 @@ class Program
         {
             Console.Write("Digite um número inteiro: ");
 
-            // Converte o valor inserido em inteiro
+            
             if (int.TryParse(Console.ReadLine(), out numero))
             {
-                break; // Sai do loop se a entrada for válida
+                break; 
             }
             else
             {
                 Console.WriteLine("Por favor, insira um número inteiro válido.");
             }
 
-        } while (true); // Repete até o usuário inserir um número válido
+        } while (true); 
 
         Console.WriteLine("Tabuada do número é:");
 
-        // Exibe a tabuada do número até 10
+    
         for (int i = 1; i <= 10; i++)
         {
             int resultado = numero * i;
